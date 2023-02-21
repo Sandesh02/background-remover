@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+<head>
+  <title>Background Removed</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Background Removed</h1>
+  <img src="{{ url_for('uploaded_file', filename=image) }}">
+</body>
+</html>
